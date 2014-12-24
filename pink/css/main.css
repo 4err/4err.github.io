@@ -74,7 +74,7 @@ a {
 	width: 75px;
 	height: 25px;
 	display: inline-block;
-	background: url("../../img/pink-logo-1.png") 0 0 no-repeat;
+	background: url("../img/pink-logo-1.png") 0 0 no-repeat;
 }
 
 .main_page_header__main_menu_button {
@@ -83,7 +83,7 @@ a {
 	width: 50px;
 	height: 25px;
 	display: inline-block;
-	background: url("../../img/menu-burger.svg") 0 0 no-repeat;
+	background: url("../img/menu-burger.svg") 0 0 no-repeat;
 	-webkit-transform: translateY(0);
 	        transform: translateY(0);
 	transition: -webkit-transform 1s ease;
@@ -92,7 +92,7 @@ a {
 
 .main_page_header__main_menu_button--close {
 	width: 25px;
-	background: url("../../img/menu-cross.svg") 0 0 no-repeat;
+	background: url("../img/menu-cross.svg") 0 0 no-repeat;
 }
 
 .main_page_header__main_menu_button--hidden {
@@ -102,7 +102,7 @@ a {
 
 .application {
 	padding-top: 100px;
-	background: url("../../img/iphone-hand-1.png") 50% 44% no-repeat, url("../../img/background-1@1x.jpg") 50% 0 no-repeat;
+	background: url("../img/iphone-hand-1.png") 50% 44% no-repeat, url("../img/background-1@1x.jpg") 50% 0 no-repeat;
 	background-color: #151d25;
 }
 
@@ -162,15 +162,15 @@ a {
 }
 
 .application__link--apple {
-	background-image: url("../../img/apple-logo.svg");
+	background-image: url("../img/apple-logo.svg");
 }
 
 .application__link--android {
-	background-image: url("../../img/android-logo.svg");
+	background-image: url("../img/android-logo.svg");
 }
 
 .application__link--win {
-	background-image: url("../../img/microsoft-logo.svg");
+	background-image: url("../img/microsoft-logo.svg");
 }
 
 .application__desc {
@@ -420,7 +420,7 @@ a {
 	position: relative;
 	width: 300px;
 	height: 350px;
-	background: url("../../img/timer-2.svg") 0 0 no-repeat;
+	background: url("../img/timer-2.svg") 0 0 no-repeat;
 }
 
 .ads__timer_num {
@@ -498,15 +498,15 @@ a {
 }
 
 .main_page_footer__icon--twitter {
-	background: url("../../img/twitter.svg") center center no-repeat;
+	background: url("../img/twitter.svg") center center no-repeat;
 }
 
 .main_page_footer__icon--facebook {
-	background: url("../../img/facebook.svg") center center no-repeat;
+	background: url("../img/facebook.svg") center center no-repeat;
 }
 
 .main_page_footer__icon--youtube {
-	background: url("../../img/youtube.svg") center center no-repeat;
+	background: url("../img/youtube.svg") center center no-repeat;
 }
 
 .main_page_footer__icon:hover {
@@ -533,11 +533,11 @@ a {
 }
 
 .main_page_footer__copyicon--design {
-	background: url("../../img/glukhanko.svg") 0 0 no-repeat;
+	background: url("../img/glukhanko.svg") 0 0 no-repeat;
 }
 
 .main_page_footer__copyicon--ha {
-	background: url("../../img/htmlacademy.svg") 0 0 no-repeat;
+	background: url("../img/htmlacademy.svg") 0 0 no-repeat;
 }
 
 .main_page_footer__copyicon:active {
@@ -560,11 +560,11 @@ a {
 }
 
 .price__icon--yes {
-	background: url("../../img/yes.svg") 0 0 no-repeat;
+	background: url("../img/yes.svg") 0 0 no-repeat;
 }
 
 .price__icon--no {
-	background: url("../../img/no.svg") 0 0 no-repeat;
+	background: url("../img/no.svg") 0 0 no-repeat;
 }
 
 .price__table {
@@ -614,7 +614,7 @@ a {
 	height: 61px;
 	left: 0;
 	top: 0;
-	background: url("../../img/hit.png") 0 0 no-repeat;
+	background: url("../img/hit.png") 0 0 no-repeat;
 }
 
 @media screen and (min-width: 320px) {
@@ -658,12 +658,12 @@ a {
 	.main_page_header__logo {
 		width: 175px;
 		height: 40px;
-		background: url("../../img/Pink-logo-2@1x.png") 0 0 no-repeat;
+		background: url("../img/Pink-logo-2@1x.png") 0 0 no-repeat;
 	}
 
 	.application {
 		padding-top: 300px;
-		background: url("../../img/iphone-hand-2@1x.png") 50% 100% no-repeat, url("../../img/background-2@1x.jpg") 50% 0 no-repeat;
+		background: url("../img/iphone-hand-2@1x.png") 50% 100% no-repeat, url("../img/background-2@1x.jpg") 50% 0 no-repeat;
 	}
 
 	.application__button {
@@ -817,7 +817,7 @@ a {
 	}
 
 	.main_page_header__logo {
-		background: url("../../img/Pink-logo-3@1x.png") 0 0 no-repeat;
+		background: url("../img/Pink-logo-3@1x.png") 0 0 no-repeat;
 	}
 
 	.main_page_header__main_menu_button {
@@ -831,7 +831,7 @@ a {
 	.application {
 		padding: 0;
 		padding-top: 23.33333333%;
-		background: url("../../img/iphone-hand-3@1x.png") 60% 100% no-repeat, url("../../img/background-fullsize.jpg") 50% 100% no-repeat;
+		background: url("../img/iphone-hand-3@1x.png") 60% 100% no-repeat, url("../img/background-fullsize.jpg") 50% 100% no-repeat;
 		background-size: auto, cover;
 	}
 
@@ -916,7 +916,7 @@ a {
 		content: "";
 		width: 80px;
 		height: 80px;
-		background: url("../../img/quotes.svg") 0 0 no-repeat;
+		background: url("../img/quotes.svg") 0 0 no-repeat;
 		margin: 0 auto;
 	}
 
@@ -991,7 +991,7 @@ a {
 	}
 
 	.ads__timer {
-		background: url("../../img/timer-3.svg") 0 0 no-repeat;
+		background: url("../img/timer-3.svg") 0 0 no-repeat;
 		margin-right: 100px;
 	}
 
