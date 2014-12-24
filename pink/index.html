@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.min.css">
+    <script src="js/picturefill.min.js"></script>
+</head>
+
+<body>
+    <header class="main_page_header">
+        <div class="layout_center_wrapper">
+            <div id="header" class="main_page_header__menu_container">
+                <a class="main_page_header__logo" href="/"></a>
+                <a id="open_link" class="main_page_header__main_menu_button" href="#"></a>
+                <a id="close_link" class="
+                main_page_header__main_menu_button
+                main_page_header__main_menu_button--close
+                main_page_header__main_menu_button--hidden                    
+                " href="#"></a>
+            </div>
+            <nav id="menu" class="main_menu main_menu--hidden">
+                <li class="main_menu__item">
+                    <a class="main_menu__link" href="#">Информация</a>
+                </li>
+                <li class="main_menu__item">
+                    <a class="main_menu__link" href="#">Возможности</a>
+                </li>
+                <li class="main_menu__item">
+                    <a class="main_menu__link" href="#">Отзывы</a>
+                </li>
+                <li class="main_menu__item">
+                    <a class="main_menu__link" href="#">Стоимость</a>
+                </li>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="application">
+            <div class="layout_center_wrapper">
+                <div class="application__slogan">Взгляните на жизнь иначе!</div>
+
+                <div class="application__download_block">
+                    <a class="application__button" href="#">Скачать приложение</a>
+                    <div class="application__platform_selector">
+                        <a class="application__link application__link--apple" href="#" title="apple">Apple</a>
+                        <a class="application__link application__link--android" href="#" title="android">Android</a>
+                        <a class="application__link application__link--win" href="#" title="windows phone">WP</a>
+                    </div>
+                    <div class="application__desc">Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="features">
+            <div class="features__slogan">
+                Устали от серости мегаполиса?
+            </div>
+            <div class="features__slogan gradient features__slogan--short">Нам есть, что вам
+                <br>предложить!</div>
+            <div class="features__demo">
+                <div class="layout_center_wrapper">
+                    <div class="features__wrapper">
+                        <div class="features__block">
+                            <div class="feature">
+                                <p class="feature__title">Поднимает настроение</p>
+                                <div class="feature__desc">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</div>
+                            </div>
+                            <div class="feature">
+                                <p class="feature__title">Меняет мир вокруг</p>
+                                <div class="feature__desc">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</div>
+                            </div>
+                            <div class="feature">
+                                <p class="feature__title">Заводит новых друзей</p>
+                                <div class="feature__desc">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</div>
+                            </div>
+                        </div>
+                        <div class="features__pictures_block">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="/img/iphone-screen-3-1@1x.png 1x,
+                /img/iphone-screen-3-1@2x.png 2x">
+                                    <img class="features__promo_img--additional" src="/img/iphone-screen-3-1@1x.png" alt="Приложение">
+                            </picture>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="/img/iphone-screen-3-2@1x.png 1x,
+                /img/iphone-screen-3-2@2x.png 2x">
+                                    <img class="features__promo_img--additional" src="/img/iphone-screen-3-2@1x.png" alt="Приложение">
+                            </picture>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="/img/iphone-screen-3-3@1x.png 1x,
+                /img/iphone-screen-3-3@2x.png 2x">
+                                    <source media="(min-width: 700px)" srcset="/img/iphone-screen-2-3@1x.png 1x,
+                /img/iphone-screen-2-3@2x.png 2x">
+                                        <img class="features__promo_img" src="/img/iphone-screen-3-3@1x.png" alt="Приложение">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ads clearfix">
+            <div class="layout_center_wrapper">
+                <div class="ads__wrap">
+                    <div class="ads__timer"><span class="ads__timer_num">24</span>
+                    </div>
+                    <div class="ads__article">
+                        <div class="ads__title">Эффект на 24 часа!</div>
+                        <div class="ads__text">Британские ученые провели исследования и доказали, что положительный эффект от приложения длится целые сутки!
+                        </div>
+                        <a href="#" class="ads__link">Узнать больше об исследовании</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="layout_center_wrapper">
+            <section class="slider_frame">
+                <div class="slider_frame__body">
+                    <a href="" class="slider_frame__arrow slider_frame__arrow--left">Влево</a>
+                    <article class="review">
+                        <p class="review__name">Николай Петров</p>
+                        <p class="review__profession">25 лет, водитель трамвая</p>
+                        <div class="review__text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</div>
+                    </article>
+                    <a href="" class="slider_frame__arrow slider_frame__arrow--right">Вправо</a>
+                </div>
+                <ul class="slider_frame__switch slider_frame__switch--review">
+                    <li class="slider_frame__switch_item">
+                        <a class="slider_frame__switch_button slider_frame__switch_button--active" href=""></a>
+                    </li>
+                    <li class="slider_frame__switch_item">
+                        <a class="slider_frame__switch_button" href=""></a>
+                    </li>
+                    <li class="slider_frame__switch_item">
+                        <a class="slider_frame__switch_button" href=""></a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <section class="slider_frame slider_frame--additional_padding gradient--before">
+            <div class="slider_frame__body">
+                <div class="price">
+                    <div class="layout_center_wrapper">
+                        <table class="price__table">
+                            <tr>
+                                <th></th>
+                                <th>База <span class="price__cost">1,99 USD</span>
+                                </th>
+                                <th class="price__hit">Стандарт <span class="price__cost">3,99 USD</span>
+                                </th>
+                                <th>Анлим <span class="price__cost">9,99 USD</span>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>Розовый фильтр</td>
+                                <td>Розовый фильтр <span class="price__icon price__icon--yes"></span>
+                                </td>
+                                <td>Розовый фильтр <span class="price__icon price__icon--yes"></span>
+                                </td>
+                                <td>Розовый фильтр <span class="price__icon price__icon--yes"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Смайлики</td>
+                                <td>Смайлики <span class="price__icon price__icon--no"></span>
+                                </td>
+                                <td>Смайлики <span class="price__icon price__icon--yes"></span>
+                                </td>
+                                <td>Смайлики <span class="price__icon price__icon--yes"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Комментарии</td>
+                                <td>Комментарии <span class="price__icon price__icon--no"></span>
+                                </td>
+                                <td>Комментарии <span class="price__icon price__icon--no"></span>
+                                </td>
+                                <td>Комментарии <span class="price__icon price__icon--yes"></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <ul class="slider_frame__switch slider_frame__switch--price">
+                        <li class="slider_frame__switch_item">
+                            <a class="slider_frame__switch_button" href=""></a>
+                        </li>
+                        <li class="slider_frame__switch_item">
+                            <a class="slider_frame__switch_button slider_frame__switch_button--active" href=""></a>
+                        </li>
+                        <li class="slider_frame__switch_item">
+                            <a class="slider_frame__switch_button" href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <div class="layout_center_wrapper">
+            <section class="contacts">
+                <div class="contacts__slogan">
+                    Остались вопросы?
+                    <br>Свяжитесь с нами!</div>
+
+                <div class="contact">
+                    <p class="contact__title">Звоните:</p>
+                    <div class="contact__addr">8 (800) 1000 900</div>
+                </div>
+                <div class="contact">
+                    <p class="contact__title">Пишите:</p>
+                    <a href="mailto:hello@pinkapp.ru" class="contact__addr contact__addr--email">hello@pinkapp.ru</a>
+                </div>
+                <div class="contact">
+                    <p class="contact__title">Приезжайте в гости:</p>
+                    <div class="contact__addr">Санкт-Петербург, Невский проспект, д.20</div>
+                </div>
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="/img/map3.png 1x">
+                        <source media="(min-width: 700px)" srcset="/img/map2.png 1x">
+                            <img class="contacts__map" src="/img/map1.png" alt="Карта">
+                </picture>
+            </section>
+        </div>
+    </main>
+    <div class="layout_center_wrapper">
+        <footer class="main_page_footer">
+            <a href="#" class="main_page_footer__logo">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="/img/Pink-logo-footer-3@1x.png 1x, /img/Pink-logo-footer-3@2x.png 2x">
+                        <source media="(min-width: 700px)" srcset="/img/Pink-logo-footer-2@1x.png 1x, /img/Pink-logo-footer-2@2x.png 2x">
+                            <img src="/img/Pink-logo-footer-2@1x.png" alt="На главную">
+                </picture>
+            </a>
+            <div class="main_page_footer__icons_block">
+                <a href="" class="main_page_footer__icon main_page_footer__icon--twitter">
+                    Twitter
+                </a>
+                <a href="" class="main_page_footer__icon main_page_footer__icon--facebook">
+                    Facebook
+                </a>
+                <a href="" class="main_page_footer__icon main_page_footer__icon--youtube">
+                    Youtube
+                </a>
+            </div>
+            <div class="main_page_footer__copyright_block">
+                Website by 
+                <a href="" class="main_page_footer__copyicon main_page_footer__copyicon--design"></a>
+                for
+                <a href="" class="main_page_footer__copyicon main_page_footer__copyicon--ha"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
