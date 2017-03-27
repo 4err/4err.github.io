@@ -1,0 +1,47 @@
+body {
+    background: #9e7b43;
+
+}
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+
+.main-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    border: 8px solid black;
+}
+
+#menu {
+    height: 60px;
+}
+
+#titlebarDialog {
+    height: 28px;
+}
+
+#map {
+    width: 1196px;
+    margin-right: 102px;
+    margin-left: 102px;
+}
+
+#grille {
+    position: absolute;
+    width: 1116px;
+    left: 274px;
+    top: 610px;
+}
+
+#bombe_tooltip {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
