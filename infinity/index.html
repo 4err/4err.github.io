@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hacking helper INFINITY</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<div class="container">
+
+</div>
+
+<template id="card">
+    <div class='card'>
+        <div class="row">
+            <div class="type" id="type"></div>
+            <div class="name" id="name"></div>
+        </div>
+        <div class="block">
+            <div class="head">Устройство</div>
+            <div class="device" id="device"></div>
+        </div>
+        <table class="mods" cellspacing=0>
+            <caption>Модификаторы</caption>
+            <tr>
+                <td>Атак</td>
+                <td>Оппонент</td>
+                <td>Урон</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td id="attack"></td>
+                <td id="opponent"></td>
+                <td id="damage"></td>
+                <td id="burst"></td>
+            </tr>
+        </table>
+
+        <div class="block">
+            <div class="head">Цель</div>
+            <div class="target" id="target"></div>
+        </div>
+        <div class="block">
+            <div class="head">Цена</div>
+            <div class="skill" id="skill"></div>
+        </div>
+        <div class="block">
+            <div class="head">Эффект</div>
+            <div class="effect" id="effect"></div>
+        </div>
+    </div>
+</template>
+<script src="main.js"></script>
+</body>
+</html>
